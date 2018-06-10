@@ -1,0 +1,2600 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+
+img{
+	max-width: 100%;
+	height:auto;
+}
+
+@font-face{
+	font-family: Strawberry Blossom;
+	src: url("fonts/Strawberry Blossom.ttf");
+}
+@font-face{
+	font-family: Ubuntu;
+	src: url("fonts/Ubuntu.ttf");
+}
+
+.column_one {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+    min-height: 100%;
+}
+
+ .column_two{
+ 	float: left;
+    width: 50%;
+    padding: 10px;
+   
+    min-height: 100%;
+ }
+
+
+/* Clear floats after the columns */
+.row_first:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left-orange-background{
+    content: '';
+    background: orange;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    left: 0;
+}
+.right-orange-background{
+    content: '';
+    background: orange;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    right: 0;
+}
+.position-relative{
+	position: relative;
+}
+
+.position-relative h1{
+	font-family: 'Strawberry Blossom';
+	font-size: 110px;
+	
+	text-align: center;
+	margin-top: 230px;
+}
+
+
+
+
+
+ .navbar{
+	padding: 10px;
+	margin-top: 240px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+ .navbar ul li{
+	float: left;
+	padding: 12px;
+	list-style-type: none;
+	font-size: 16px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+ .navbar ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+
+ .navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.logowrapper{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	height: 400px;
+	width: 500px;
+	background: white;
+	margin-top: 90px;
+
+
+}
+
+.logowrapper img{
+	display: flex;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+.network_sites{
+	margin-top: 100px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-left: 180px;
+}
+.icon{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+
+
+}
+.icon:hover{
+	border: 2px solid orange;
+}
+
+.facebook_icon{
+	padding-left: 3px;
+	color:black;
+	
+}
+.twitter_icon{
+	padding-left:3px;
+	color:black;
+}
+.instagram_icon{
+	padding-left:3px;
+	color:black;
+}
+.facebook_icon:hover{
+	color:orange;
+}
+.twitter_icon:hover{
+	color:orange;
+}
+
+.instagram_icon:hover{
+	color:orange;
+}
+
+
+
+
+/* -----------------------------------------ABOUT.HTML----------------------------------------------------------------*/
+.background_image{
+	height: auto;
+    background-image: url(images/t_logo.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.background_image h2{
+	font-family: 'Strawberry Blossom';
+	margin-top: 60px;
+	font-size: 70px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.background_image  h2 a{
+	color:black;
+	text-decoration:none;
+}
+
+.background_image .details{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	text-align: center;
+	
+}
+.background_image .details h3{
+	margin-top:0;
+	font-family: 'Raleway';
+	font-weight: bold;
+	line-height:1.5em;
+	color:black;
+	margin-bottom:30px;
+	
+	
+}
+.background_image h4{
+	font-family:'Raleway';
+	line-height: 2em;
+	margin-top: 10px;
+	font-weight:bold;
+
+}
+.opening_quote{
+	margin-right: 30px;
+}	
+
+.closing_quote{
+	margin-left:30px;
+}
+.navbar_about{
+	padding: 10px;
+	margin-top: 580px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
+.navbar_about ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+.navbar_about ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+.navbar_about ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+.our_team{
+	margin-top: 100px;
+
+}
+#team{
+	font-family:'Exo';
+	font-size:25px;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+}
+#team_content{
+	text-align:center;
+	font-family:'Exo';
+	color:white;
+}
+#team_title{
+	font-family:'Exo';
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+}
+
+
+.modal{
+	font-family:'Exo';
+}
+.modal-header{
+	background:orange;
+}
+.modal-body{
+	margin-top:25px;
+	margin-bottom:10px;
+}
+
+.button_team{
+	margin-top: 20px;
+	width:86%;
+	background:orange;
+	padding: 10px 12px;
+	color:#fff;
+	border:0;
+	margin-bottom: 25px;
+	margin-left:5px;
+	margin-right: 5px;	
+	}
+.button_team:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+}
+
+.designation{
+	font-style:'Exo';
+	font-size:12px;
+}
+
+.social_icons{
+	margin-top: 25px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 160px;
+}
+
+.icon_about{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-left: 40px;
+}
+.icon_about:hover{
+	border: 2px solid black;
+}
+
+.facebook{
+	padding-left: 3px;
+	color:white;
+	
+}
+.twitter{
+	padding-left:3px;
+	color:white;
+}
+.instagram{
+	padding-left:3px;
+	color: white;
+}
+.facebook:hover{
+	color:black;
+	
+}
+.twitter:hover{
+	color: black;
+	
+}
+
+.instagram:hover{
+	color: black;
+	
+}
+
+
+
+
+
+
+
+/*
+.modal{
+	display:none; 
+	position:fixed;
+	z-index: 1;
+	left:0;
+	top: 0;
+	height:100%;
+	width: 100%;
+	overflow:auto;
+	background-color: rgba(0,0,0,0.5);
+}
+.modalContent{
+background-color: #f4f4f4;
+margin-top:5%;
+margin-left: 15%;
+padding: 20px;
+width: 50%;
+box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px rgb(0,0,0.2);
+animation-name: modalopen;
+animation-duration: 2s;
+animation-name: zoom;
+height :480px;
+position: fixed;
+
+}
+#close-btn{
+	color:white;
+	float:right;
+	font-size:30px;
+}
+#close-btn:hover,#close-btn:focus{
+	
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@keyframes type {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 40ch;
+	}
+}
+@keyframes modalopen{
+	from{opacity: 0;}
+	to: {
+      opacity: 1;
+	}
+}
+
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#img:hover{
+cursor: pointer;
+
+}
+
+
+.modal-header{
+	background:orange;
+	padding:15px;
+    color:white;
+}
+.modal-body{
+	padding: 10px 20px;
+	height: 300px;
+	margin-top:5% 
+}
+.modal-body p{
+	color:black;
+} 
+#image{
+	padding-left: 10%
+	margin-top :10%;
+/*	overflow: hidden;
+}
+#image img{
+	width: 100%
+	height:100%;
+	transition: all 2s ease;
+}
+
+.modal-footer{
+	margin-bottom: 5px; 
+}
+
+
+#profile{
+margin-right:10%;
+float:left; 
+}*/
+
+
+
+
+
+
+/*--------------------------------------------CONTACT.HTML----------------------------------------------------------------*/
+
+.column_one h2{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size: 70px;
+}
+.column_one h2 a{
+	text-decoration: none;
+	color: black;
+}
+#connect{
+	
+	font-family:'Exo';
+
+}
+
+form{
+	margin-top:-50px;
+	margin-left:70px;
+	margin-right:-10px;
+	
+
+}
+
+
+button[type=submit] {
+    background-color: orange;
+    color: white;
+    /*padding: 10px 12px;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+    font-family: 'Exo';
+    margin-left:-5px;
+}
+
+input[type=text],input[type=email], select, textarea{
+	
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 0;
+	margin-bottom: 10px;
+	resize: vertical;
+	font-family:'Exo';
+}
+/*input[type=text]:hover,input[type=email]:hover, select:hover, textarea:hover{
+	background-color: #03516B;
+}*/
+
+input[type=submit]:hover {
+    background-color: #03516B;
+}
+ .form-control{
+	width:80%;
+}
+
+/*.form_wrapper{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+.navbar_contact{
+	padding: 10px;
+	margin-top: 200px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar_contact ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+.navbar_contact ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+
+.navbar_contact ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+#touch{
+	color: white;
+	font-family: 'Exo';
+	text-align: center;
+	font-size:30px;
+
+}
+#info{
+	text-align:center;
+	color:white;
+	font-family:'Exo';
+}
+.column_one p{
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+}
+
+.address{
+	margin-top: 10px;
+	padding:20px;
+
+	
+}
+table{
+	padding: 5px;
+	color:white;
+	margin-left:200px;
+	line-height: 2em;
+	margin-right:auto;
+	font-family:'Exo';
+}
+td, th {
+    padding: 0 5px;
+}
+
+.mapwrapper{
+	margin-left:-30px;
+	margin-right: -45px;
+}
+.social_sites{
+	margin-top: 80px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 180px;
+}
+.icon_contact{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-left: 40px;
+}
+.icon_contact:hover{
+	border: 2px solid black;
+}
+
+.facebook_contact{
+	padding-left: 3px;
+	color:white;
+	
+}
+.twitter_contact{
+	padding-left:3px;
+	color:white;
+}
+.instagram_contact{
+	padding-left:3px;
+	color: white;
+}
+.facebook_contact:hover{
+	color:black;
+	
+}
+.twitter_contact:hover{
+	color: black;
+	
+}
+
+.instagram_contact:hover{
+	color: black;
+	
+}
+
+
+
+
+
+/*------------------------------------------------PORTFOLIO.HTML--------------------------------------------------*/
+
+.description{
+	position: relative;
+	width: 100%;
+}
+.navbar_portfolio{
+	margin-top: 0;
+}
+
+
+#portfolio{
+	font-family:'Raleway';
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.portfolio_mandala{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size:70px;
+}
+
+
+
+.portfolio_mandala a{
+	text-decoration: none;
+	color:black;
+
+	
+
+}
+
+.testimonials{
+	margin-top: 50px;
+	
+	
+	height:auto;
+}
+
+.testimonials h4{
+	text-align:center;
+	color:white;
+	font-family:'Raleway';
+	font-size:25px;
+}
+
+.navbar_portfolio{
+	padding: 10px;
+	margin-top: 290px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar_portfolio ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+.navbar_portfolio ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+
+.navbar_portfolio ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+.column_portfolio .content {
+    min-height: 270px;
+}
+
+.content p{
+	font-family:'Montserrat Alternates';
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+.row_portfolio {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row_portfolio,
+.row_portfolio> .column_portfolio {
+    padding: 15px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column_portfolio {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row_portfolio:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: #E6E6E6;
+    padding: 5px;
+}
+
+.content h5{
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+	font-weight: bold;
+
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  	border: none;
+  	outline: none;
+  	padding: 12px 16px;
+  	background-color: white;
+  	cursor: pointer;
+  	font-family:'Raleway';
+	text-transform:uppercase;
+	margin-left:50px;
+	font-weight:bold;
+}
+
+.btn:hover {
+  background-color: #F2C68D;
+}
+
+.btn.active {
+  background-color: orange;
+  color: white;
+}
+
+
+.socialnetwork_sites{
+	
+   	bottom: 0;
+	margin-top: 80px;
+	padding: 20px;
+	text-align: center;
+	margin-left: 180px;
+}
+.icon_portfolio{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+}
+.icon_portfolio:hover{
+	border: 2px solid orange;
+}
+
+.facebook_portfolio{
+	padding-left: 5px;
+	color:black;
+	
+}
+.twitter_portfolio{
+	padding-left:3px;
+	color:black;
+}
+.instagram_portfolio{
+	padding-left:3px;
+	color: black;
+}
+.facebook_portfolio:hover{
+	color:orange;
+
+}
+.twitter_portfolio:hover{
+	color:orange;
+
+}
+.instagram_portfolio:hover{
+	color:orange;
+
+}
+
+
+/*---------------------------------------------------SERVICE.HTML----------------------------------------------------*/
+
+.portfolio_mandala{
+	margin-bottom: 20px;
+}
+
+
+.service_title{
+	font-family:'Exo';
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+#motto{
+	font-family:'Strawberry Blossom';
+	font-size: 30px;
+	color: black;
+	letter-spacing: 3px;
+}
+.navbar_service{
+	padding: 10px;
+	margin-top: 220px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
+.navbar_service ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+.navbar_service ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+
+.navbar_service ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+.our_services{
+	
+	margin-left:auto;
+	margin-right:auto;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding:8px;
+
+}
+
+.our_services h5{
+	text-align: center;
+	font-family:'Montserrat Alternates';
+	border-bottom: 2px solid #E8E8E8;
+}
+
+.our_services p{
+	font-family:'Montserrat Alternates';
+	font-size: 13px;
+	height:auto;
+	text-align:center;
+}
+
+#carousel-example-generic{
+	margin-top: 20px;
+
+}
+.carousel{
+	margin-left:-3px;
+	margin-right:10px;
+}
+
+.col-md-8{
+	margin-top:10px;
+
+
+}
+.panel-default .panel-heading{
+	background:orange;
+	height:60px;
+	
+}
+.panel-title{
+	text-align:center;
+	margin-top:15px;
+	font-family:'Exo';
+	font-weight:bold;
+}
+.panel-title a{
+	text-decoration: none;
+}
+
+.panel-title a:hover{
+	color:white;
+}
+.socialnetwork{
+	margin-top: 260px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 180px;
+}
+.icon_service{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+}
+.icon_service:hover{
+	border: 2px solid orange;
+}
+
+.facebook_service{
+	padding-left: 5px;
+	color:black;
+	
+}
+.twitter_service{
+	padding-left:3px;
+	color:black;
+}
+.instagram_service{
+	padding-left:3px;
+	color: black;
+}
+.facebook_service:hover{
+	color:orange;
+	
+}
+.twitter_service:hover{
+	color: orange;
+	
+}
+
+.instagram_service:hover{
+	color: orange;
+	
+}
+
+
+
+
+/*MEDIA QUERY*/
+ 
+@media (min-width:1025px){
+	/* for index.html*/
+	.position-relative h1{
+	font-family: 'Strawberry Blossom';
+	font-size: 120px;
+	
+	text-align: center;
+	margin-top: 290px;
+}
+
+
+
+
+
+ .navbar{
+	padding: 10px;
+	margin-top: 380px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+ .navbar ul li{
+	float: left;
+	padding: 12px;
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+ .navbar ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+
+ .navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.logowrapper{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	height: 700px;
+	width: 600px;
+	background: white;
+	margin-top: 100px;
+
+
+}
+
+.logowrapper img{
+	width:100%;
+	display: flex;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+.network_sites{
+	margin-top: 0px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-left: 220px;
+}
+.icon{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+	}
+	
+
+	/*about.html*/
+
+	.background_image{
+	height: auto;
+    background-image: url(images/t_logo.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+	}
+	.background_image h2{
+	font-family: 'Strawberry Blossom';
+	margin-top: 60px;
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	}
+	.background_image  h2 a{
+	color:black;
+	text-decoration:none;
+	}
+
+	.background_image .details{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	text-align: center;
+	
+	}
+	.background_image .details h3{
+	margin-top:0;
+	font-family: 'Raleway';
+	font-weight: bold;
+	line-height:1.5em;
+	color:black;
+	margin-bottom:30px;
+	font-size:50px;
+	
+	
+	}
+	.background_image h4{
+	font-family:'Raleway';
+	line-height: 2em;
+	margin-top: 10px;
+	font-weight:bold;
+	font-size:28px;
+
+	}
+	.opening_quote{
+	margin-right: 30px;
+	}	
+
+	.closing_quote{
+	margin-left:30px;
+	}
+	.navbar_about{
+	padding: 12px;
+	margin-top: 480px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	}
+
+	.navbar_about ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+	}
+	.navbar_about ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+	}
+
+	.navbar_about ul li a{
+	text-decoration: none;
+	color: black;
+
+	}
+
+
+	.our_team{
+	margin-top: 100px;
+
+	}
+	#team{
+	font-family:'Exo';
+	font-size:25px;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	}
+	#team_content{
+	text-align:center;
+	font-family:'Exo';
+	color:white;
+	}
+	#team_title{
+	font-family:'Exo';
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	}
+
+
+	.modal{
+	font-family:'Exo';
+	}
+	.modal-header{
+	background:orange;
+	}
+	.modal-body{
+	margin-top:25px;
+	margin-bottom:10px;
+	}
+
+.button_team{
+	margin-top: 20px;
+	width:86%;
+	background:orange;
+	padding: 10px 12px;
+	color:#fff;
+	border:0;
+	margin-bottom: 25px;
+	margin-left:5px;
+	margin-right: 5px;	
+	}
+.button_team:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+}
+
+.designation{
+	font-style:'Exo';
+	font-size:12px;
+}
+
+.social_icons{
+	margin-top: 100px;
+	padding: 20px;
+	margin-bottom: 60px;
+	margin-left: 230px;
+}
+
+.icon_about{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-left: 40px;
+}
+.icon_about:hover{
+	border: 2px solid black;
+}
+}
+
+@media (min-width:1025px){
+/*contact.html*/
+	.column_one h2{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size: 90px;
+}
+.column_one h2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.navbar_contact{
+	padding: 10px;
+	margin-top: 370px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.navbar_contact ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+#touch{
+	color: white;
+	font-family: 'Exo';
+	text-align: center;
+	font-size:40px;
+
+}
+#info{
+	text-align:center;
+	color:white;
+	font-family:'Exo';
+}
+.column_one p{
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+}
+
+.address{
+	margin-top: 10px;
+	padding:20px;
+
+	
+}
+table{
+	padding: 5px;
+	color:white;
+	margin-left:300px;
+	line-height: 3em;
+	margin-right:auto;
+	font-family:'Exo';
+}
+td, th {
+    padding: 0 5px;
+}
+
+.mapwrapper{
+	margin-left:-30px;
+	margin-right: -45px;
+}
+.social_sites{
+	margin-top: 200px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 260px;
+}
+
+/*portfolio.html*/
+
+.description{
+	position: relative;
+	width: 100%;
+}
+.navbar_portfolio{
+	margin-top: 0;
+}
+
+
+#portfolio{
+	font-family:'Raleway';
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.portfolio_mandala{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size:70px;
+}
+
+
+
+.portfolio_mandala a{
+	text-decoration: none;
+	color:black;
+
+	
+
+}
+
+.testimonials{
+	margin-top: 50px;
+	
+	
+	height:auto;
+}
+
+.testimonials h4{
+	text-align:center;
+	color:white;
+	font-family:'Raleway';
+	font-size:28px;
+}
+
+.navbar_portfolio{
+	padding: 10px;
+	margin-top: 410px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+.navbar_portfolio ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+.navbar_portfolio ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+.column_portfolio .content {
+    min-height: 270px;
+}
+
+.content p{
+	font-family:'Montserrat Alternates';
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+
+
+/* Content */
+.content {
+    background-color: #E6E6E6;
+    padding: 5px;
+}
+
+.content h5{
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+	font-weight: bold;
+
+}
+
+/* The "show" class is added to the filtered elements 
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  	border: none;
+  	outline: none;
+  	padding: 12px 16px;
+  	background-color: white;
+  	cursor: pointer;
+  	font-family:'Raleway';
+	text-transform:uppercase;
+	margin-left:120px;
+	font-weight:bold;
+}
+
+
+
+.socialnetwork_sites{
+	
+   	bottom: 0;
+	margin-top: -20px;
+	padding: 20px;
+	text-align: center;
+	margin-left: 300px;
+	margin-bottom: 20px;
+}
+.icon_portfolio{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+}
+
+}
+
+@media (min-width:1025px){
+
+	/*service.html*/
+
+.portfolio_mandala{
+	margin-bottom: 20px;
+}
+
+
+.service_title{
+	font-family:'Exo';
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+#motto{
+	font-family:'Strawberry Blossom';
+	font-size: 30px;
+	color: black;
+	letter-spacing: 3px;
+}
+.navbar_service{
+	padding: 10px;
+	margin-top: 220px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.navbar_service ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+.our_services{
+	
+	margin-left:auto;
+	margin-right:auto;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding:8px;
+
+}
+
+.our_services h5{
+	text-align: center;
+	font-family:'Montserrat Alternates';
+	border-bottom: 2px solid #E8E8E8;
+}
+
+.our_services p{
+	font-family:'Montserrat Alternates';
+	font-size: 13px;
+	height:auto;
+	text-align:center;
+}
+
+
+.panel-default .panel-heading{
+	background:orange;
+	height:80px;
+	
+}
+.panel-title{
+	text-align:center;
+	margin-top:25px;
+	font-family:'Exo';
+	font-weight:bold;
+}
+.panel-title a{
+	text-decoration: none;
+}
+
+.panel-title a:hover{
+	color:white;
+}
+.socialnetwork{
+	margin-top: 480px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 300px;
+}
+.icon_service{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* For Desktop and Laptops*/
+@media (min-width: 1025px) and (max-width: 1280px){
+	/* for index.html*/
+	.position-relative h1{
+	font-family: 'Strawberry Blossom';
+	font-size: 100px;
+	
+	text-align: center;
+	margin-top: 270px;
+}
+
+
+
+
+
+ .navbar{
+	padding: 10px;
+	margin-top: 410px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+ .navbar ul li{
+	float: left;
+	padding: 12px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+ .navbar ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+
+ .navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.logowrapper{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	height: 700px;
+	width: 600px;
+	background: white;
+	margin-top: 100px;
+
+
+}
+
+.logowrapper img{
+	width:100%;
+	display: flex;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+.network_sites{
+	margin-top: 0px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-left: 160px;
+}
+.icon{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+	}
+	
+
+	/*about.html*/
+
+	.background_image{
+	height: auto;
+    background-image: url(images/t_logo.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+	}
+	.background_image h2{
+	font-family: 'Strawberry Blossom';
+	margin-top: 60px;
+	font-size: 80px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	}
+	.background_image  h2 a{
+	color:black;
+	text-decoration:none;
+	}
+
+	.background_image .details{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	text-align: center;
+	
+	}
+	.background_image .details h3{
+	margin-top:0;
+	font-family: 'Raleway';
+	font-weight: bold;
+	line-height:1.5em;
+	color:black;
+	margin-bottom:30px;
+	font-size:40px;
+	
+	
+	}
+	.background_image h4{
+	font-family:'Raleway';
+	line-height: 2em;
+	margin-top: 10px;
+	font-weight:bold;
+	font-size:25px;
+
+	}
+	.opening_quote{
+	margin-right: 30px;
+	}	
+
+	.closing_quote{
+	margin-left:30px;
+	}
+	.navbar_about{
+	padding: 8px;
+	margin-top: 400px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	}
+
+	.navbar_about ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+	}
+	
+
+
+	.our_team{
+	margin-top: 100px;
+
+	}
+	#team{
+	font-family:'Exo';
+	font-size:25px;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	}
+	#team_content{
+	text-align:center;
+	font-family:'Exo';
+	color:white;
+	}
+	#team_title{
+	font-family:'Exo';
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	}
+
+.designation{
+	font-family:'Exo';
+	font-size:12px;
+}
+
+.social_icons{
+	margin-top: 110px;
+	padding: 20px;
+	margin-bottom: 60px;
+	margin-left: 180px;
+}
+
+.icon_about{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-left: 40px;
+}
+
+
+}
+/* For Desktop and Laptops*/
+@media (min-width: 1025px) and (max-width: 1280px){
+	/*contact.html*/
+	.column_one h2{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size: 90px;
+}
+.column_one h2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.navbar_contact{
+	padding: 10px;
+	margin-top: 300px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar_contact ul li{
+	float: left;
+	padding: 10px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+#touch{
+	color: white;
+	font-family: 'Exo';
+	text-align: center;
+	font-size:30px;
+
+}
+#info{
+	text-align:center;
+	color:white;
+	font-family:'Exo';
+}
+.column_one p{
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+}
+
+.address{
+	margin-top: 10px;
+	padding:20px;
+
+	
+}
+table{
+	padding: 5px;
+	color:white;
+	margin-left:200px;
+	line-height: 3em;
+	margin-right:auto;
+	font-family:'Exo';
+}
+td, th {
+    padding: 0 5px;
+}
+
+.mapwrapper{
+	margin-left:-30px;
+	margin-right: -45px;
+}
+.social_sites{
+	margin-top: 150px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 180px;
+}
+
+/*portfolio.html*/
+
+.description{
+	position: relative;
+	width: 100%;
+}
+.navbar_portfolio{
+	margin-top: 0;
+}
+
+
+#portfolio{
+	font-family:'Raleway';
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.portfolio_mandala{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size:70px;
+}
+
+
+
+.portfolio_mandala a{
+	text-decoration: none;
+	color:black;
+
+	
+
+}
+
+.testimonials{
+	margin-top: 50px;
+	
+	
+	height:auto;
+}
+
+.testimonials h4{
+	text-align:center;
+	color:white;
+	font-family:'Raleway';
+	font-size:28px;
+}
+
+.navbar_portfolio{
+	padding: 10px;
+	margin-top: 260px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar_portfolio ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+.navbar_portfolio ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+.column_portfolio .content {
+    min-height: 270px;
+}
+
+.content p{
+	font-family:'Montserrat Alternates';
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+
+
+
+
+
+/* Content */
+.content {
+    background-color: #E6E6E6;
+    padding: 5px;
+}
+
+.content h5{
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+	font-weight: bold;
+
+}
+
+/* The "show" class is added to the filtered elements 
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  	border: none;
+  	outline: none;
+  	padding: 12px 16px;
+  	background-color: white;
+  	cursor: pointer;
+  	font-family:'Raleway';
+	text-transform:uppercase;
+	margin-left:60px;
+	font-weight:bold;
+}
+
+
+
+.socialnetwork_sites{
+	
+   	bottom: 0;
+	margin-top: 100px;
+	padding: 20px;
+	text-align: center;
+	margin-left: 210px;
+	margin-bottom: 0px;
+}
+.icon_portfolio{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+
+	/*service.html*/
+
+.portfolio_mandala{
+	margin-bottom: 20px;
+}
+
+
+.service_title{
+	font-family:'Exo';
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+#motto{
+	font-family:'Strawberry Blossom';
+	font-size: 30px;
+	color: black;
+	letter-spacing: 3px;
+}
+.navbar_service{
+	padding: 10px;
+	margin-top: 400px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
+.navbar_service ul li{
+	float: left;
+	padding: 10px;
+	list-style-type: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+.our_services{
+	
+	margin-left:auto;
+	margin-right:auto;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding:8px;
+
+}
+
+.our_services h5{
+	text-align: center;
+	font-family:'Montserrat Alternates';
+	border-bottom: 2px solid #E8E8E8;
+}
+
+.our_services p{
+	font-family:'Montserrat Alternates';
+	font-size: 13px;
+	height:auto;
+	text-align:center;
+}
+
+
+.panel-default .panel-heading{
+	background:orange;
+	height:70px;
+	
+}
+.panel-title{
+	text-align:center;
+	margin-top:20px;
+	font-family:'Exo';
+	font-weight:bold;
+}
+.panel-title a{
+	text-decoration: none;
+}
+
+.panel-title a:hover{
+	color:white;
+}
+.socialnetwork{
+	margin-top: 350px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 180px;
+}
+.icon_service{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+}
+}
+
+
+
+/* For ipads and tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+	/* for index.html*/
+	.position-relative h1{
+	font-family: 'Strawberry Blossom';
+	font-size: 90px;
+	
+	text-align: center;
+	margin-top: 350px;
+}
+
+
+
+
+
+ .navbar{
+	padding: 8px;
+	margin-top: 370px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+ .navbar ul li{
+	float: left;
+	padding: 8px;
+	list-style-type: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+ .navbar ul li:hover{
+	transform : scale(1.2);
+	cursor: pointer;
+
+}
+
+
+ .navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.logowrapper{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	height: 700px;
+	width: 500px;
+	background: white;
+	margin-top: 120px;
+
+
+}
+
+.logowrapper img{
+	width:100%;
+	display: flex;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+.network_sites{
+	margin-top: 0px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-left: 140px;
+}
+.icon{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 30px;
+	}
+	
+
+	/*about.html*/
+
+	.background_image{
+	height: auto;
+    background-image: url(images/t_logo.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+	}
+	.background_image h2{
+	font-family: 'Strawberry Blossom';
+	margin-top: 60px;
+	font-size: 70px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	}
+	.background_image  h2 a{
+	color:black;
+	text-decoration:none;
+	}
+
+	.background_image .details{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	text-align: center;
+	
+	}
+	.background_image .details h3{
+	margin-top:0;
+	font-family: 'Raleway';
+	font-weight: bold;
+	line-height:1.5em;
+	color:black;
+	margin-bottom:30px;
+	font-size:35px;
+	
+	
+	}
+	.background_image h4{
+	font-family:'Raleway';
+	line-height: 2em;
+	margin-top: 10px;
+	font-weight:bold;
+	font-size:22px;
+
+	}
+	.opening_quote{
+	margin-right: 30px;
+	}	
+
+	.closing_quote{
+	margin-left:30px;
+	}
+	.navbar_about{
+	padding: 8px;
+	margin-top: 350px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	}
+
+	.navbar_about ul li{
+	float: left;
+	padding: 10px;
+	list-style-type: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+	}
+	
+
+
+	.our_team{
+	margin-top: 100px;
+
+	}
+	#team{
+	font-family:'Exo';
+	font-size:25px;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	}
+	#team_content{
+	text-align:center;
+	font-family:'Exo';
+	color:white;
+	}
+	#team_title{
+	font-family:'Exo';
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	}
+
+.designation{
+	font-family:'Exo';
+	font-size:12px;
+}
+
+.social_icons{
+	margin-top: 140px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 110px;
+}
+
+.icon_about{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-left: 40px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+/*contact.html*/
+	.column_one h2{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size: 90px;
+}
+.column_one h2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.navbar_contact{
+	padding: 10px;
+	margin-top: 370px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+
+.navbar_contact ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+#touch{
+	color: white;
+	font-family: 'Exo';
+	text-align: center;
+	font-size:40px;
+
+}
+#info{
+	text-align:center;
+	color:white;
+	font-family:'Exo';
+}
+.column_one p{
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+}
+
+.address{
+	margin-top: 10px;
+	padding:20px;
+
+	
+}
+table{
+	padding: 5px;
+	color:white;
+	margin-left:300px;
+	line-height: 3em;
+	margin-right:auto;
+	font-family:'Exo';
+}
+td, th {
+    padding: 0 5px;
+}
+
+.mapwrapper{
+	margin-left:-30px;
+	margin-right: -45px;
+}
+.social_sites{
+	margin-top: 200px;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 300px;
+}
+
+/*portfolio.html*/
+
+.description{
+	position: relative;
+	width: 100%;
+}
+.navbar_portfolio{
+	margin-top: 0;
+}
+
+
+#portfolio{
+	font-family:'Raleway';
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.portfolio_mandala{
+	font-family: 'Strawberry Blossom';
+	text-align: center;
+	font-size:70px;
+}
+
+
+
+.portfolio_mandala a{
+	text-decoration: none;
+	color:black;
+
+	
+
+}
+
+.testimonials{
+	margin-top: 50px;
+	
+	
+	height:auto;
+}
+
+.testimonials h4{
+	text-align:center;
+	color:white;
+	font-family:'Raleway';
+	font-size:28px;
+}
+
+.navbar_portfolio{
+	padding: 10px;
+	margin-top: 410px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+.navbar_portfolio ul li{
+	float: left;
+	padding: 13px;
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:'Raleway';
+
+
+}
+
+
+
+.navbar_portfolio ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+.column_portfolio .content {
+    min-height: 270px;
+}
+
+.content p{
+	font-family:'Montserrat Alternates';
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+
+
+
+/* Content */
+.content {
+    background-color: #E6E6E6;
+    padding: 5px;
+}
+
+.content h5{
+	text-align: center;
+	font-family: 'Montserrat Alternates';
+	font-weight: bold;
+
+}
+
+/* The "show" class is added to the filtered elements 
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  	border: none;
+  	outline: none;
+  	padding: 12px 16px;
+  	background-color: white;
+  	cursor: pointer;
+  	font-family:'Raleway';
+	text-transform:uppercase;
+	margin-left:120px;
+	font-weight:bold;
+}
+
+
+
+.socialnetwork_sites{
+	
+   	bottom: 0;
+	margin-top: -20px;
+	padding: 20px;
+	text-align: center;
+	margin-left: 300px;
+	margin-bottom: 20px;
+}
+.icon_portfolio{
+	list-style-type: none;
+	float:left;
+	padding: 12px;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 40px;
+}
+
+}
+
+
+	/* For Most of the low resolution tablets and mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px){
+
+
+}
+
+
+/* For Most of the Smartphones*/
+@media (min-width: 320px) and (max-width:480px){
+
+	}
